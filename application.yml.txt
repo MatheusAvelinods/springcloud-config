@@ -4,3 +4,6 @@ config:
 spring:
   profiles:
     active: default
+
+example:
+  info: "Configuração comum para todos os serviços"
