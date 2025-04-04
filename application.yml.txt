@@ -1,0 +1,6 @@
+config:
+  global: true
+
+spring:
+  profiles:
+    active: default
