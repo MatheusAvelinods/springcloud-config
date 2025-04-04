@@ -1,6 +1,13 @@
 spring:
   application:
     name: service-b
+  cloud:
+    config:
+      enabled: false
 
-custom:
-  message: "Configuração vinda do Service B!"
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+ port: 8084
